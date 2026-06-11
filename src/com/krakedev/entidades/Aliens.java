@@ -60,7 +60,7 @@ public class Aliens {
 	}
 	
 	public void imprimir() {
-		System.out.println("*-*-*-*-*-*-*-*-*-*- ALIENS -*-*-*-*-*-*-*-*-*-*");
+		System.out.println("\n*-*-*-*-*-*-*-*-*-*- ALIENS -*-*-*-*-*-*-*-*-*-*\n");
 		System.out.println("TAMAÑO: "+tamaño);
 		System.out.println("COLOR: "+color.toUpperCase());
 		System.out.println("NUMERO DE OJOS: N°. "+numeroOjos);
