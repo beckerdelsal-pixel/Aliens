@@ -70,4 +70,21 @@ public class Aliens {
 		System.out.println("PRECIO POR OJO: $"+precioOjo);
 		System.out.println("PRECIO POR CUERPO: $"+precioCuerpo);
 	}
+	public boolean agregarBrazos(int cantidad) {
+        
+        if (this.numeroBrazos + this.numeroPies + cantidad <= 10) {
+            this.numeroBrazos += cantidad;
+            return true;
+        }
+        return false;
+    }
+
+    public boolean agregarPiernas(int cantidad) {
+        
+        if (this.numeroBrazos + this.numeroPies + cantidad <= 10) {
+            this.numeroPies += cantidad;
+            return true;
+        }
+        return false; 
+    }
 }
